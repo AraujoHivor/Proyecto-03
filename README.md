@@ -7,7 +7,6 @@ Materia: Desarrollo de Aplicaciones Web y Móviles (SOFG1006) - ESPOL.
 - `SuperStore_Orders.csv`: conjunto de datos original (51.290 registros, 21 columnas).
 - `transformar_csv_a_json.py`: script de conversión y validación en Python.
 - `SuperStore_Orders.json`: conjunto de datos convertido a formato JSON.
-- `REGISTRO_VALIDACION.txt`: resumen de las comprobaciones realizadas.
 
 ## Cómo ejecutar el script
 
