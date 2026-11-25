@@ -1,13 +1,29 @@
-export interface Pedido {
-  id: number; 
+export interface PedidoFirebase {
+  order_id: string;
   order_date: string;
-  year: number;
+  ship_date: string;
+  ship_mode: string;
+  customer_name: string;
+  segment: string;
+  state: string;
+  country: string;
+  market: string;
+  region: string;
+  product_id: string;
   category: string;
   sub_category: string;
-  region: string;
+  product_name: string;
   sales: number;
-  profit: number;
   quantity: number;
+  discount: number;
+  profit: number;
+  shipping_cost: number;
+  order_priority: string;
+  year: number;
+}
+
+export interface Pedido extends PedidoFirebase {
+  id: number;
 }
 
 export interface VentaAnual {
