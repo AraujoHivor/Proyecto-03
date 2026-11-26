@@ -109,7 +109,6 @@ export default function GraficoCategoriasUI({ datos }: GraficoCategoriasProps) {
           yAxis={[
             {
               min: 0,
-              max: 800000,
               tickNumber: 5,
             },
           ]}

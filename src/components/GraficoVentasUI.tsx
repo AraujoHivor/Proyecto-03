@@ -81,7 +81,6 @@ export default function GraficoVentasUI({ datos }: GraficoVentasProps) {
             yAxis={[
               {
                 min: 0,
-                max: 5000000,
                 tickNumber: 5,
                 valueFormatter: (valor: number) => {
                   if (valor === 0) return "0";
